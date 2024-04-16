@@ -1,0 +1,136 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.heading{
+    font-size: 35px;
+    padding-top: 0;
+}
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1px 0 15px 0;
+    position: sticky;
+    top: 0;
+}
+
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding-right: 50px
+}
+.contact-section {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.contact-form label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact-form button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: #0056b3;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 30px 0;
+    text-align: center;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-column {
+    flex: 1 1 300px;
+    margin-bottom: 20px;
+}
+
+.footer-column h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.footer-column p {
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+ li {
+    margin-right: 10px;
+    font-style: none;
+    text-decoration: none;
+}
+
+ a {
+    color: #fff;
+    font-size: 24px;
+    transition: color 0.3s ease;
+    text-decoration: none;
+    padding-top: 5px;
+}
+
+.social-icons a:hover {
+    color: #007bff;
+    text-decoration: underline;
+}
+
+.footer-bottom {
+    margin-top: 20px;
+}
+
+.footer-bottom p {
+    font-size: 14px;
+}

@@ -1,0 +1,30 @@
+.movie-video{
+    display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-grow: 1;
+   width: 100%;
+   flex-wrap: wrap;
+   gap: 20px;
+}
+
+
+@media (max-width:600px){
+    .movie-video{
+        flex-direction: column;
+    }
+}
+
+.webseries-video{
+    display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-grow: 1;
+   width: 100%;
+}
+
+@media (max-width:600px){
+    .webseries-video{
+        flex-direction: column;
+    }
+}

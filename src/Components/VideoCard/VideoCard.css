@@ -1,0 +1,28 @@
+.video-img{
+    margin-right: 20px;
+    /* flex-grow: 1; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.videocard-super-container{
+    flex-grow: 1;
+    margin-top: 10px;
+padding-bottom: 15px;
+border-bottom: 1px solid black;
+
+}
+
+.video-img img{
+    width: 200px;
+
+}
+
+.video-img video{
+width:40%;
+border-radius: 5px;
+cursor: pointer;
+}
+.video-content{
+    width: 40%;
+}

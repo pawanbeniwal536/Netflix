@@ -1,0 +1,88 @@
+.Super-Container{
+width: 100%;
+background-color: black;
+display: flex;
+justify-content: space-between;
+align-items: center;
+position: sticky;
+top: 0;
+z-index: 3;
+}
+.Nav-items{
+    display: flex;
+   background-color: black;
+   align-items: center;
+   color: white;
+   width:50%;
+   justify-content: space-around;
+}
+.Netflix-logo img{ 
+    width:120px;
+    font-size: 30px;
+    border: 1px solid white;
+    margin-top: 5px;
+border-radius: 20px ;
+}
+.font-bar-icon {
+    color: white;
+    margin-right: 40px;
+    height: 0px;
+    margin-top: 5px;
+    font-size: 30px;
+}
+
+.same-nav-cls {
+    text-decoration: none;
+    color: white;
+}
+
+.same-nav-cls:hover{
+   color: rgba(168, 197, 174, 0.825);
+}
+
+.super-container-2{
+    width: 100%;
+    background-color: black;
+}
+
+.respone-items{
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+.response-menu-icon{
+    color: white;
+    position:relative;
+    right: 30px;
+    font-size: 30px;
+}
+
+.logo-item img{
+    width:120px;
+}
+@media (max-width:870px){
+    .Nav-items{
+        width:65%;
+    }
+}
+
+@media (max-width:600px){
+    .font-bar-icon{
+     position: absolute;
+     top: 20px;
+     right: 0;
+    }
+    .Nav-items{
+        flex-direction: column;
+        width: 100%;
+    }
+    .super-container-2{
+        border-bottom: 1px solid white;
+    }
+    .Movies , .Webseries , .Cricket{
+        padding-top:10px;
+        padding-bottom: 10px;
+    }
+}
+
